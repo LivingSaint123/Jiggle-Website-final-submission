@@ -1,0 +1,461 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: "Lato", sans-serif;
+    background: #eee;
+    background-position-y: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+   h2,
+   p,
+   span {
+    color: #444242;
+   }
+   #maintwo {
+    transition: margin-left .5s;
+    padding: 16px;
+   }
+   
+   .sidenav {
+    text-align: center;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0288d1;
+    overflow-x: hidden;
+    transition:all 1s;
+    padding-top: 60px;
+   }
+   
+   .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    padding: 30px;
+   }
+   
+   .sidenav a:hover,
+   .offcanvas a:focus {
+    color: #f1f1f1;
+   }
+   
+   .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+   }
+   
+   @media screen and (max-height: 450px) {
+    .sidenav {
+     padding-top: 15px;
+    }
+    .sidenav a {
+     font-size: 18px;
+    }
+   }
+
+
+
+
+
+.section-two{
+    background-color: #ddddfa;
+}
+.sectionTwoTextBox{
+    padding-top: 8em;  
+}
+.sectionTwoImagBox{
+    padding-top: 2em; 
+    
+}
+
+.section-four{
+    background-color: #ddddfa;
+}
+.containerfive{
+    background-color: #ddddfa;
+
+}
+
+.sectionFourTextBox{
+    padding-top: 8em;
+}
+.sectionFourImageBox{
+    padding-top: 2em;
+}
+
+.sectionFiveTextBox{
+    padding-top: 8em;
+}
+
+.sectionFiveImagBox{
+    padding-top: 2em;
+}
+
+.section-eight{
+    background-color: rgb(44, 44, 129) !important; 
+    width: 100%; 
+    padding-bottom: 4.5em;
+    margin-top: 5;
+}
+.sectionEightTextBox{
+    margin-top: 6em;
+    color: white;
+}
+.sectionEightImagBox{
+    margin-top: 2em;
+}
+.sectionEightTextBox > .btn{
+    background-color: white;
+    color: rgb(26, 26, 122);
+    font-weight: bold;
+}
+.sectionnine{
+    background: #ddddfa;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.get-app{
+    padding: 18px;
+    background-color:blue !important;
+    color: white !important;
+    font-size: 19px !important;
+    font-weight: bold;
+    
+}
+.nav-link{
+    font-weight: 500;
+}
+.get-it-onandco{
+    display: flex;
+    
+}
+.getcoming{
+    width: 6em;
+}
+ul > li{
+    list-style: none;
+}
+.socialm{
+    padding: 1em
+}
+.googleplayco{
+    margin: auto;
+    justify-content: center;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    background-color: orange;
+    
+  }
+  
+  .sidebar{
+    position: fixed;
+    top: 0;
+    left:-250px;
+    background-color: #262626;
+    width: 250px;
+    height: 100%;
+    transition: .3s;
+  }
+  
+  ul{
+    margin: 0;
+    padding: 20px 0;
+  }
+  
+  ul li{
+    list-style: none;
+  }
+  
+  ul li a{
+    padding: 10px 20px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+  }
+  
+  ul li a:hover{
+    background-color: grey;
+  }
+  
+  .sidebarBtn{
+    position: absolute;
+    top: 0;
+    right:-50px;
+    width:50px;
+    height:50px;
+    box-sizing:border-box;
+    cursor: pointer;
+    background-color: #000000;
+    border: none;
+    outline: none;
+  }
+  
+  .sidebarBtn span{
+    display: block;
+    width: 35px;
+    height: 3px;
+    background-color: #262626;
+    position: absolute;
+    top:24px;
+    transition: .3s;
+  }
+  
+  .sidebarBtn span:before{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: #262626;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    transition: .3s;
+  }
+  
+  .sidebarBtn span:after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: #262626;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    transition: .3s;
+  }
+  
+  .active{
+    left: 0;
+  }
+  
+  .sidebarBtn.toggle span{
+    background-color: transparent;
+  }
+  
+  .sidebarBtn.toggle span:before{
+    top:0;
+    transform: rotate(-45deg);
+  }
+  
+  .sidebarBtn.toggle span:after{
+    top:0;
+    transform: rotate(45deg);
+  }
+  #animated-sidenav{
+      display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+/* .CardIcon{
+    
+        font-size: 60px;
+        margin: 20px auto;
+        height: 100px;
+        width: 100px;
+        padding: 20px;
+        padding-bottom: 1em;
+        padding-bottom: 1em;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        background: #ddddfa;
+} */
+/* .containercard{
+    background: #ddddfa;
+    
+}
+
+.sectionEightTextBox{
+    padding-top: 12em;
+    color: whitesmoke !important;
+}
+.sectionEightImagBox{
+    padding-top: 2em;
+    
+}
+
+.sectionEightTextBox .btn{
+    margin-top: 1em;
+    margin-bottom: 4em;
+    background-color: whitesmoke !important;
+    color: darkblue !important;
+    font-weight: bold;
+
+}
+.ceoimage{
+    border-radius: 50%;
+}
+.card-text{
+    font-size: 16px;
+}
+.sectionnine{
+    width: 100%;
+}
+.testimonial{
+    width: 100%;
+}
+
+
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img{
+    height: 40px;
+    padding-left: 30px;
+
+}
+.navbar-nav li{
+    padding: 0 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+
+
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+
+
+}
+.get-app{
+    padding: 18px;
+    background-color:blue !important;
+    color: white !important;
+    font-size: 19px !important;
+    
+}
+
+.containernine{
+    background-color: #ddddfa !important;
+    background-size: cover;
+    width: 100% !important;
+}
+.colmsmartwallert{ */
+    
+
+
+@media(max-width:768px){
+    .mummyj{
+        display: none;
+    }
+    .sectionEightImagBox{
+        display: none;
+    }
+    body{
+        margin: 0;
+    }
+    .row > div{
+        width: 100vw;
+        margin: 0;
+        margin-right: 0;
+    }
+    .sectionTwoImagBox{
+        width: 100% !important;
+    }
+    #sectionThreeImageBox{
+        width: 100% !important;
+    }
+    .mediamarginleft{
+        margin-left: 0;
+    }
+    .sectionFiveImagBox{
+        display: flex;
+        justify-content: center;
+    }
+    .sectionFiveTextBox{
+        
+        text-align: center;
+    }
+    .sectionSixImageBox{
+        display: flex;
+        justify-content: center;
+
+    }
+    .textboxdeal{
+        text-align: center;
+    }
+    .sectionTwoImagBox{
+        display: flex;
+        justify-content: center;
+    }
+    .sectionTwoTextBox{
+        text-align: center;
+    }
+    .sectionThreeImageBox{
+        display: flex;
+        justify-content: center;
+    }
+    .section3textbox{
+        text-align: center;
+    }
+    .getitco{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .getitco > img{
+        width: 6em;
+    }
+    .mediamarginleft{
+        margin-left: 3em;
+    }
+    .sectionnine{
+        text-align: center;
+    }
+    .socialmedialinks{
+        align-items: center;
+        margin: auto;
+    }
+    .socialm{
+        padding-left: 1em
+    }
+    .googleplayco{
+        padding-bottom: 1em;
+    }
+    #animated-sidenav{
+        display: block;
+    }
+    #nav-bar{
+        display: none;
+    }
+    
+    
+    
+}
+
+ 
